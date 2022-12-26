@@ -1,0 +1,9 @@
+name = "edge-graphql"
+main = "src/index.ts"
+compatibility_date = "2022-09-23"
+compatibility_flags = ["streams_enable_constructors"]
+node_compat = true
+
+[vars]
+FAUNA_SECRET = "mykey"
+FAUNA_DOMAIN = "db.fauna.com"
